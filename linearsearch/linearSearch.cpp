@@ -24,6 +24,6 @@ void main(){
 		cout<<"given number is not present in present array";
 	    }
 	else 
-		cout<<"given number is present at index:"<<result;
+		cout<<"given number is present at index:"<< result+1;
 
 }
