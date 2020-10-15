@@ -12,7 +12,7 @@ int linear(int arr[],int size,int x){
                         if(x==arr[i])
                                 return i;
                  }
-   if(i=size)
+   if(i==size)
       return 0;
         }
 int  main(){
