@@ -13,7 +13,7 @@ int linear(int arr[],int size,int x){
                                 return i;
                  }
    if(i==size)
-      return 0;
+      return -1;
         }
 int  main(){
         int arr[10]={44,52,3,6,97,48,19,22,38,50};
@@ -22,7 +22,7 @@ int  main(){
         int x;
         cin>>x;
         int result=linear(arr, size, x);
-        if(result==0){
+        if(result==-1){
                 cout<<"given number is not present in present array";
             }
         else 
