@@ -2,6 +2,8 @@
 <a href="https://github.com/PHAGUN-JAIN/Algorithms/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/PHAGUN-JAIN/Algorithms?style=for-the-badge"></a>
 <a href="https://github.com/PHAGUN-JAIN/Algorithms/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/PHAGUN-JAIN/Algorithms?style=for-the-badge"></a>
 <a href="https://github.com/PHAGUN-JAIN/Algorithms/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/PHAGUN-JAIN/Algorithms?style=for-the-badge"></a>
+[![CodeScene Code Health](https://codescene.io/projects/9999/status-badges/code-health)](https://codescene.io/projects/9999)
+[![CodeScene System Mastery](https://codescene.io/projects/9999/status-badges/system-mastery)](https://codescene.io/projects/9999)
 
 ## About the Project <br>
 This repository contains some of the interesting issues you would like to work on and test and harness your skills.
