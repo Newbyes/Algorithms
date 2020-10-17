@@ -12,14 +12,14 @@ int binary_search(arr[],n,x) //arr[] is the array,n is the size of the array and
 {
 	int f=0,l=n-1;       //f is the first element in the array and l is the last element in the array
 	int m = (f+l)/2;     //m is the mid element of the array
-	while(f!=l)
+	while(f<=l)
 	{
 		if(arr[m]==x)
 			return m;	//If element is found
 		else if(arr[m]>x)
-			l=m;		//to select the left /small numbered part of the array 
+			l=m-1;		//to select the left /small numbered part of the array 
 		else
-			f=m;		//to select the right /large numbered part of the array
+			f=m+1;		//to select the right /large numbered part of the array
 		m = (f+l)/2;
 	}
 	return -1;
