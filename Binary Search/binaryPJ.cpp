@@ -1,32 +1,37 @@
-#include <iostream>
-using namespace std;
 
-int binarySearch(int arr[], int p, int r, int x)
-{
-	if (r >= p) {
-		int mid = p + (r - p) / 2;
+ #include<iostream>
+ using namespace std;
 
+ int binary(int arr[], int n, int x){
+	int p=0;
+	int r=n-1;
+	
+ while(r>=p){
+	int m=(p+r)/2;
+		if(arr[m]==x){
+			return m;
+		}
+		else if(arr[m]>x){
+			r=m-1;
+		}
+		else{
+ 			p=m+1;
+		}
+	    }
+  return -1;
+ }
 
-		if (arr[mid] == x)
-			return mid;
+	//main function
+ int main(){
+	int arr[]={2,5,44,87,92};
+	int size=sizeof(arr)/sizeof(arr[0]);
+	int x=5;
+	int res=binary(arr, size, x);
+	if(res== -1){
+		cout<<"given no: \t"<< x <<"\tis not in the array"<<endl;
+	} else{
+		cout<<"the number is present at index:"<< res <<endl;
+		}
+ return 0;
 
-		if (arr[mid] > x)
-			return binarySearch(arr, p, mid - 1, x);
-
-		        return binarySearch(arr, mid + 1, r, x);
-	  }
-
-	return -1;
-}
-
-int main(){
-	int arr[] = { 2, 3, 4, 10, 40 };
-	int x = 10;
-	int n = sizeof(arr) / sizeof(arr[0]);
-	int result = binarySearch(arr, 0, n - 1, x);
-	if(result == -1) {
-	cout << "Element is not present in array";
-	}else
-		 cout << "Element is present at index " << result;
-	return 0;
-}
+ }
