@@ -13,3 +13,5 @@ Implementation in languages primarily in C/C++/Java/Python.<br><br>
 2.Make a folder with the issue name if doesn't exist already.<br>
 3.Commit your code with in the folder named with the issue you are working on.
 
+<iframe allowfullscreen src='https://timelines.gitkraken.com/timeline/c9f613b549984f9ab373e8291739d3fa?allowPresentationMode=true' style='width:100%;height:100%;border:none;' />
+
