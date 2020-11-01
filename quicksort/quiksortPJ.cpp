@@ -1,7 +1,11 @@
 
  #include<iostream>
  using namespace std;
-
+void swap(int *x, int *y){
+	int temp= *x;
+	*x= *y;
+	*y=*x;
+}
 int partition(int arr[], low, high){
 
 }
@@ -9,6 +13,8 @@ int partition(int arr[], low, high){
 int quick-sort(int arr[], low, high){
 
 }
+
+                                                                                         //driver code
 int main(){
     int arr[]={45,48,56,92,18,19,3,1};
     int n=size0f(arr)/sizeof(arr[0]);
