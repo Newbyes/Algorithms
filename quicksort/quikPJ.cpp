@@ -33,7 +33,7 @@ void quick(int arr[], int low, int high){
 int main(){
         int arr[]={42,98,65,43,2,1,0};
         int n=sizeof(arr)/sizeof(arr[0]);
-        quick(arr, 0,n);
+        quick(arr, 0,n-1);
         cout<<"Sorted array:"<<endl;
         for(int i=0; i<n;i++){
                 cout<<arr[i]<<" ";
