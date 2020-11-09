@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+void insertionsort(int arr, int n){
+	//traverse whole array
+	for(int i=0; i<n; i++){
+		
+	}
+}
+
 void print(int arr[], int n){
 	for(int i=0; i<n; i++){
 		cout<<arr[i]<<" ";
