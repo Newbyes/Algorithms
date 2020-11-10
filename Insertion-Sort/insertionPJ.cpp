@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void insertionsort(int arr, int n){
+void insertionsort(int arr[], int n){
 	//traverse whole array
 	for(int i=0; i<n; i++){
 	int key =arr[i];
