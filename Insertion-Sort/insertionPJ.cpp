@@ -3,10 +3,10 @@ using namespace std;
 
 void insertionsort(int arr[], int n){
 	//traverse whole array
-	for(int i=0; i<n; i++){
+	for(int i=1; i<n; i++){
 	int key =arr[i];
 	int j= i-1;
-		while( arr[j]>key){
+		while(j>=0 && arr[j]>key){    	//j>=0 stops loop after first index of array provided
 			arr[j+1]=arr[j];
 			j--;
 		}
