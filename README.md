@@ -10,8 +10,8 @@ Implementation in languages primarily in C/C++/Java/Python.<br><br>
 [![CodeScene System Mastery](https://codescene.io/projects/9999/status-badges/system-mastery)](https://codescene.io/projects/9999)
 
 ### <a href="https://app.gitkraken.com/glo/board/X46Eig2DKwARHlRA">Check The Deadlines</a>
-
-## Contributing <br>[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
+## strictly follow:[CodeOfConduct](CODE_OF_CONDUCT.md)
+# Contributing <br>[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
 1.Make your own branch don't put up a pull request for master.<br>
 2.Make a folder with the issue name if doesn't exist already.<br>
 3.Commit your code with in the folder named with the issue you are working on.
