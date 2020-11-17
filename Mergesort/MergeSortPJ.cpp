@@ -15,7 +15,7 @@ void merge(int arr[], int front, int rear, int mid){
   }
 
   int i=0,j=0,k=front;
-  while(i<size1 && j<size2){
+  while(i<size1 && j<size2){  //run the loop untill both the specifiers are valid
       if(L[i] < R[j]){
         arr[k]=L[i];
         i++;
@@ -30,11 +30,13 @@ void merge(int arr[], int front, int rear, int mid){
 }
 
 void mergesort(int arr[],int front, int rear){
+  while(rear>front){
     int mid=(front+rear)/2;
       mergesort(arr, front, mid);
       mergesort(arr, mid+1, rear);
 
       merge(arr, front, rear, mid);
+    }
 }
 
 void print(int arr[], int n){
