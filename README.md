@@ -9,9 +9,9 @@ Implementation in languages primarily in C/C++/Java/Python.<br><br>
 [![CodeScene Code Health](https://codescene.io/projects/9999/status-badges/code-health)](https://codescene.io/projects/9999)
 [![CodeScene System Mastery](https://codescene.io/projects/9999/status-badges/system-mastery)](https://codescene.io/projects/9999)
 
-### <a href="https://timelines.gitkraken.com/timeline/c9f613b549984f9ab373e8291739d3fa">Check The Deadlines</a>
-
-## Contributing <br>[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
+### <a href="https://app.gitkraken.com/glo/board/X46Eig2DKwARHlRA">Check The Deadlines</a>
+## strictly follow:[CodeOfConduct](CODE_OF_CONDUCT.md)
+# Contributing <br>[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
 1.Make your own branch don't put up a pull request for master.<br>
 2.Make a folder with the issue name if doesn't exist already.<br>
 3.Commit your code with in the folder named with the issue you are working on.
