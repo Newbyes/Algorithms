@@ -12,7 +12,7 @@ Implementation in languages primarily in C/C++/Java/Python.<br><br>
 ### <a href="https://app.gitkraken.com/glo/board/X46Eig2DKwARHlRA">Check The Deadlines</a>
 ## Strictly Follow:[CodeOfConduct](CODE_OF_CONDUCT.md)
 # Contributing <br>[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
-1.Make your own branch don't put up a pull request for master.<br>
+1.Make your own branch don't put up a pull request for main.<br>
 2.Make a folder with the issue name if doesn't exist already.<br>
 3.Commit your code with in the folder named with the issue you are working on.
 
